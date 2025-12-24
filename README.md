@@ -1,4 +1,12 @@
-| [Home](https://chengyiing.github.io/cy/) | [Research](dataviz-examples) | [Projects](critique-by-design) | [CV](final-project-part-one) | [Contact](final-project-part-two) | [final project III](final-project-part-three) | 
+
+<nav style="margin-bottom: 2em;">
+  <a href="https://chengyiing.github.io/cy/">Home</a> ·
+  <a href="#research-interests">Research</a> ·
+  <a href="#selected-projects">Projects</a> ·
+  <a href="#methods--skills">Methods</a> ·
+  <a href="#contact">Contact</a>
+</nav>
+
 
 # Chengyi Cai
 
@@ -9,13 +17,11 @@ I work at the intersection of **energy systems, optimization, and data-driven de
 with a focus on **low-carbon electricity systems and data-center energy demand**.
 
 
-- Web page URL: [chengyiing.github.io](https://chengyiing.github.io/cheng-dataviz-portfolio/)
-- This repository: [github.com/Chengyiing](https://github.com/Chengyiing/cheng-dataviz-portfolio)
+- Web page: [chengyiing.github.io](https://chengyiing.github.io/cheng-dataviz-portfolio/)
+- Github: [github.com/Chengyiing](https://github.com/Chengyiing/cheng-dataviz-portfolio)
 
-# Portfolio
-This is my public portfolio for Telling Stories with Data at CMU!  Here's where all my cool work will go.  You should probably hire me. 
 
-# About me
+## About me
 
 I am a master's student at **Carnegie Mellon University**, enrolled in the **Public Policy and Data Analytics (PPM-DA)** program.
 
@@ -26,10 +32,13 @@ I am currently preparing applications for PhD programs in **energy systems, oper
 
 In my free time, I enjoy exploring Pittsburgh's diverse food scene and taking walks in nearby parks! I also like travelling and photograph, and this is my video website: [Cheng's Notes](https://space.bilibili.com/14696857?spm_id_from=333.1007.0.0)
 
-<img src="cheng.jpg" width="500"/>
+
+<img src="cheng.jpg" width="300" alt="Chengyi Cai"/>
+
+---
 
 
-# Research Interests
+## Research Interests
 
 My research interests include:
 
@@ -47,32 +56,27 @@ My research interests include:
 - Data visualization and storytelling
 
 
+---
 
-# Selected Projects
+## Selected Projects
 
-## Data Visualization for Public Policy
+### Data Visualization for Public Policy
+Exploratory and explanatory visualizations developed to communicate complex public policy data.  
+[Visualizing Government Debt](dataviz-examples)
 
+### Critique by Design
+Analytical redesign of public-facing visualizations, with emphasis on clarity, bias, and interpretability.  
+[View project](critique-by-design)
 
-### [Visualizing government Debt](dataviz-examples)
+### Final Project: Government Debt Visualization
+A multi-part project examining government debt data through iterative visual analysis.  
+[Part I](final-project-part-one) · [Part II](final-project-part-two) · [Part III](final-project-part-three)
 
-### [Critique by Design](critique-by-design)
+---
 
-### Final project
-Here it might be helpful to include a high-level description of your final project. 
+## Contact
 
-[Part I](final-project-part-one)
-
-[Part II](final-project-part-two)
-
-[Part III](final-project-part-three)
-
-
-
-
-
-
-
-# Enjoy the journey and make a difference to the world!
-
+- Email: chengyic@andrew.cmu.edu  
+- GitHub: https://github.com/Chengyiing
 
 
