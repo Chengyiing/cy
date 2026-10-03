@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Coursework & Visualization Archive</title>
   <link rel="stylesheet" href="style.css">
 </head>
@@ -9,11 +10,12 @@
 <body>
 
 <header>
-  <nav class="nav">
+  <nav class="nav" aria-label="Main navigation">
     <a href="index.html">Home</a>
-    <a href="project.html">Projects</a>
-    <a href="coursework.html">Data Viz</a>
-    <a href="cv.html">CV</a>
+    <a href="index.html#research">Research</a>
+    <a href="index.html#activities">Activities</a>
+    <a href="coursework.html" aria-current="page">Data Viz</a>
+    <a href="assets/CV_ChengyiCai.pdf" target="_blank" rel="noopener">CV (PDF)</a>
   </nav>
 </header>
 
@@ -37,18 +39,18 @@
     </p>
 
     <!-- Tableau -->
-    <iframe
+    <iframe title="Tableau visualization: Sheet 1" loading="lazy"
       src="https://public.tableau.com/views/DataViz0322/Sheet1?:showVizHome=no&:embed=true"
       width="100%" height="500" style="border:none;">
     </iframe>
 
-    <iframe
+    <iframe title="Tableau visualization: Sheet 2" loading="lazy"
       src="https://public.tableau.com/views/DataViz20322/Sheet2?:showVizHome=no&:embed=true"
       width="100%" height="500" style="border:none; margin-top:1em;">
     </iframe>
 
     <!-- Datawrapper -->
-    <iframe
+    <iframe title="Datawrapper visualization" loading="lazy"
       src="https://datawrapper.dwcdn.net/faxXs/1/"
       width="100%" height="600"
       style="border:none; margin-top:1em;">
@@ -67,14 +69,12 @@
          alt="Critique by Design example"
          style="width:100%; max-width:500px; margin-top:1em; border-radius:8px;">
     
-    <p>
-      This project emphasized:
+    <p>This project emphasized:</p>
       <ul>
         <li>Audience interpretation</li>
         <li>Visual hierarchy</li>
         <li>Ethical and policy implications</li>
       </ul>
-    </p>
   </div>
 
   
@@ -96,7 +96,7 @@
     </ul>
 
     <!-- Shorthand embed -->
-    <iframe
+    <iframe title="Energy transition and justice: West Virginia" loading="lazy"
       src="https://carnegiemellon.shorthandstories.com/humans-in-the-shadow-of-renewables/index.html"
       width="100%" height="800"
       style="border:none; border-radius:8px;">

@@ -2,115 +2,96 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Chengyi Cai</title>
-
-  <!-- 关键：这里“引用” style.css -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Chengyi Cai is a PhD student at Carnegie Mellon University's Heinz College, studying energy systems, optimization under uncertainty, and AI data center demand.">
+  <title>Chengyi Cai | Carnegie Mellon University</title>
   <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
+  <a class="skip-link" href="#main">Skip to content</a>
   <header>
-    <nav class="nav">
-      <a href="index.html">Home</a>
-      <a href="projects.html">Projects</a>
+    <nav class="nav" aria-label="Main navigation">
+      <a href="index.html" aria-current="page">Home</a>
+      <a href="#research">Research</a>
+      <a href="#activities">Activities</a>
       <a href="coursework.html">Data Viz</a>
-      <a href="cv.html">CV</a>
+      <a href="assets/CV_ChengyiCai.pdf" target="_blank" rel="noopener">CV <span class="sr-only">(PDF, opens in a new tab)</span><span aria-hidden="true">↗</span></a>
     </nav>
   </header>
-
-<main class="content">
-
-  <!-- Intro -->
-  <div class="section">
-    <h1>Chengyi Cai</h1>
-    <p>
-      <strong>Energy Systems & Data Science</strong><br>
-      Carnegie Mellon University (PPM-DA)
-    </p>
-  </div>
-
-  <!-- About Me -->
-  <div class="section">
-    <h2>About Me</h2>
-    <p>
-      I am a master's student at Carnegie Mellon University, enrolled in the
-      Public Policy and Data Analytics (PPM-DA) program.
-    </p>
-
-    <img src="cheng.jpg" alt="Chengyi Cai" class="profile-img">
-  </div>
-
-  <!-- Research Interests -->
-  <div class="section">
-    <h2>Research Interests</h2>
-    <ul>
-      <li>Low-carbon electricity systems and capacity expansion modeling</li>
-      <li>Data-center energy demand and grid interaction</li>
-      <li>Optimization under uncertainty for climate and energy systems</li>
-      <li>Data-driven decision tools for energy policy</li>
-    </ul>
-    
-  </div>
-
-  <!-- Projects -->
-<div class="section">
-  <h2>Research Projects</h2>
-
-  
-  <div class="project">
-    <div class="project-title">CAISO Capacity Expansion & Grid Optimization</div>
-    <p>Optimization-based modeling of power system expansion under uncertainty.</p>
-    <div class="project-links">
-      <a href="caiso.html">Details</a>
-    </div>
-  </div>
-
-  <div class="project">
-    <div class="project-title">GIS-based Infrastructure Analysis</div>
-    <p>Spatial analysis of infrastructure and equity using GIS tools.</p>
-    <div class="project-links">
-      <a href="gis.html">Details</a>
-    </div>
-  </div>
-</div>
-
-
-  
-<div class="section">
-  <h2>Coursework & Visualization Archive</h2>
-  <p>
-    Selected coursework from data visualization and policy analysis courses.
-  </p>
-  <a href="coursework.html">View archived coursework</a>
-
-
-  <iframe
-      src="https://public.tableau.com/views/DataViz20322/Sheet2?:showVizHome=no&:embed=true"
-      width="100%" height="500" style="border:none; margin-top:1em;">
-  </iframe>
-
-
-  
-  <iframe
-      src="https://carnegiemellon.shorthandstories.com/humans-in-the-shadow-of-renewables/index.html"
-      width="100%" height="800"
-      style="border:none; border-radius:8px;">
-  </iframe>
-
-  
-</div>
-
-  
-  <!-- Contact -->
-  <div class="section" id="contact">
-    <h2>Contact</h2>
-    <p>
-      Email: chengyic@andrew.cmu.edu<br>
-      GitHub: <a href="https://github.com/Chengyiing">github.com/Chengyiing</a>
-    </p>
-  </div>
-
-</main>
-
+  <main class="content" id="main">
+    <section class="section intro" aria-labelledby="name">
+      <div>
+        <p class="eyebrow">CARNEGIE MELLON UNIVERSITY</p>
+        <h1 id="name">Chengyi Cai</h1>
+        <p class="role">PhD Student · Heinz College</p>
+        <p class="intro-summary">Operations Research.<br>Machine Learning.<br>Energy Systems.</p>
+        <p class="intro-description">I use operations research and machine learning to study reliable, low-carbon electricity systems and the growing energy demand of AI data centers.</p>
+        <div class="intro-links">
+          <a class="button" href="assets/CV_ChengyiCai.pdf" target="_blank" rel="noopener">View CV <span aria-hidden="true">↗</span><span class="sr-only"> (PDF, opens in a new tab)</span></a>
+          <a href="mailto:chengyic@andrew.cmu.edu">Email me <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+      <img src="assets/chengyi-cai.jpg" alt="Portrait of Chengyi Cai" class="profile-img" width="1280" height="1920">
+    </section>
+    <section class="section" aria-labelledby="about">
+      <p class="eyebrow">BACKGROUND</p>
+      <h2 id="about">About me</h2>
+      <p>I am a PhD student at Carnegie Mellon University's Heinz College, working with Peter Zhang and Woody Zhu. My research brings together operations research, machine learning, and energy systems, with a focus on infrastructure planning under uncertainty.</p>
+      <p>I am particularly interested in how electricity systems can respond to uncertain growth in AI data center demand, and when adapting investment decisions over time improves reliability and cost.</p>
+      <p>I received my M.S. in Public Policy and Management–Data Analytics from Carnegie Mellon University in 2026, and bachelor's degrees in International Affairs and International Relations and Japanese from Jinan University in 2024.</p>
+      <ul class="interests" aria-label="Research interests">
+        <li>Low-carbon electricity systems</li><li>Robust &amp; multistage optimization</li><li>AI data centers &amp; the grid</li><li>Data-driven energy planning</li>
+      </ul>
+    </section>
+    <section class="section" id="activities" aria-labelledby="activities-heading">
+      <p class="eyebrow">WHAT’S NEXT</p>
+      <h2 id="activities-heading">Upcoming activities</h2>
+      <ul class="activities-list">
+        <li><span class="activity-date">NOVEMBER 2026</span><div><h3><a href="https://meetings.informs.org/wordpress/annual/">INFORMS Annual Meeting</a></h3><p>I will attend the annual meeting in San Francisco and present my research on multistage power grid capacity expansion under uncertain AI data center demand.</p></div></li>
+        <li><span class="activity-date">OCTOBER 31, 2026</span><div><h3><a href="https://meetings.informs.org/wordpress/annual/data-mining-workshop/">Data Mining and Decision Analytics (DMDA) Workshop</a></h3><p>I plan to attend the INFORMS DMDA Workshop in San Francisco.</p></div></li>
+        <li><span class="activity-date">PLANNED</span><div><h3>ML×OR Workshop</h3><p>I plan to attend and explore connections between machine learning and operations research.</p></div></li>
+      </ul>
+    </section>
+    <section class="section" id="research" aria-labelledby="research-heading">
+      <p class="eyebrow">SELECTED WORK</p>
+      <h2 id="research-heading">Research &amp; projects</h2>
+      <article class="project">
+        <p class="project-meta">CURRENT RESEARCH · POWER SYSTEMS &amp; OPTIMIZATION</p>
+        <h3>Power grid planning under uncertain AI data center demand</h3>
+        <p>I develop multistage robust optimization models for electricity generation capacity expansion. This work compares investment plans fixed in advance with policies that adapt as demand becomes known, examining when that flexibility creates value.</p>
+        <p>Current experiments use an ERCOT-based network to study how the location and timing of demand growth, construction lead times, and network constraints affect investment, operations, and reliability.</p>
+      </article>
+      <article class="project">
+        <p class="project-meta">ENERGY &amp; CLIMATE POLICY · RESEARCH WITH VALERIE KARPLUS</p>
+        <h3>Decarbonizing industrial heat in China</h3>
+        <p>At CMU's Scott Institute for Energy Innovation, I have studied renewable natural gas and industrial heat pumps using levelized cost of heat models and lifecycle emissions analysis. This work also examines feedstock potential, certification systems, and policy pathways for industrial decarbonization.</p>
+      </article>
+      <article class="project">
+        <p class="project-meta">SELECTED PROJECT · FORECASTING &amp; CAPACITY EXPANSION</p>
+        <h3>Data-driven electricity planning for California</h3>
+        <p>I developed a GenX-inspired predict-then-optimize pipeline for a CAISO generation planning project, combining renewable energy forecasts and representative-day clustering with capacity and dispatch optimization, and testing sensitivity to carbon prices.</p>
+      </article>
+      <article class="project">
+        <p class="project-meta">SELECTED PROJECT · SPATIAL ANALYSIS</p>
+        <h3>Where should data centers be built?</h3>
+        <p>I used GIS-based multi-criteria analysis to study U.S. data center siting, combining county-level indicators of renewable energy, disaster risk, grid reliability, and electricity prices into a composite index and spatial clusters.</p>
+      </article>
+    </section>
+    <section class="section archive" aria-labelledby="archive-heading">
+      <div>
+        <p class="eyebrow">BEYOND THE MODELS</p>
+        <h2 id="archive-heading">Data visualization &amp; policy storytelling</h2>
+        <p>Selected visualizations and coursework, including a story on the human impacts of the energy transition in West Virginia.</p>
+      </div>
+      <a class="text-link" href="coursework.html">Explore the archive <span aria-hidden="true">→</span></a>
+    </section>
+    <section class="section" id="contact" aria-labelledby="contact-heading">
+      <h2 id="contact-heading">Get in touch</h2>
+      <p>For conversations about energy systems, optimization, or research collaboration:</p>
+      <a href="mailto:chengyic@andrew.cmu.edu">chengyic@andrew.cmu.edu</a>
+      <div class="contact-links"><a href="https://github.com/chengyiing">GitHub ↗</a><a href="https://www.linkedin.com/in/chengyic/">LinkedIn ↗</a></div>
+    </section>
+  </main>
+  <footer>Chengyi Cai · Carnegie Mellon University</footer>
 </body>
 </html>
